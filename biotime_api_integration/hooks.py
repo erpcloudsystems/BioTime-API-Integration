@@ -4,11 +4,7 @@ app_publisher = "Ahmed Emam"
 app_description = "Bio Time"
 app_email = "ahmedemamhatem@gmail.com"
 app_license = "mit"
-required_apps = [
-    {"app_name": "frappe", "version": ">=15.0.0 <16.0.0"},
-    {"app_name": "erpnext", "version": ">=15.0.0 <16.0.0"},
-    {"app_name": "hrms", "version": ">=15.0.0 <16.0.0"},
-]
+required_apps = ["erpnext", "hrms"]
 
 # Includes in <head>
 # ------------------
